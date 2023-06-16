@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: #5372F0;
+}
+
+.translator {
+    min-width: 70rem;
+    background: #fff;
+    border-radius: 5px;
+    padding: 3rem;
+}
+
+.content {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.text-input {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.text-input textarea {
+    padding: 1.5rem;
+    resize: none;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    height: 25rem;
+    width: 100%;
+    font-size: 1.75rem;
+}
+
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid #ccc;
+}
+
+.text-input textarea::placeholder {
+    color: #b7b6b6;
+}
+
+.control,
+li, .icons, .icons i {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control {
+    padding: 1.2rem 1.5rem;
+}
+.control .icons{
+    width: 40%;
+}
+.control .icons i{
+    width: 5rem;
+    color: #9f9f9f;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    justify-content: center;
+}
+.control .row.from .icons{
+    border-right: 1px solid #b7b6b6;
+    padding-right: 1.5rem;
+}
+.control .row.to .icons{
+    border-left: 1px solid #b7b6b6;
+    padding-left: 1.5rem;
+}
+.control .row.from select{
+    padding-right: 4rem;
+}
+.control .row.to select{
+    padding-right: 3rem;
+}
+.control .row select{
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+}
+.control .exchange{
+    color: #9f9f9f;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.translator button{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    background: #5372F0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3rem;
+    color: #fff;
+    cursor: pointer;
+}
